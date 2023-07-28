@@ -12,7 +12,7 @@ def Index():
 def Summarize():
     if req.method== "POST":
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-        headers = {"Authorization": f"Bearer {'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'}"}
+        headers = {"Authorization": f"Bearer {'MY_API_KEY_NOT_FOR_PUBLIC_VIEW'}"}
 
 
         data=req.form["data"]
